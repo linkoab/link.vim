@@ -1,15 +1,6 @@
 " # Bundle List
 " ## vimproc
-NeoBundle 'Shougo/vimproc'
-NeoBundle 'Shougo/vimproc', {
-\ 'build' : {
-\     'windows' :'make -f make_mingw32.mak',
-\     'cygwin' : 'make -f make_cygwin.mak',
-\     'mac' : 'make -f make_mac.mak',
-\     'unix' : 'make -f make_unix.mak',
-\    },
-\ }
-
+"NeoBundle 'Shougo/vimproc'
 
 " ## NERDTree
 NeoBundle 'scrooloose/nerdtree'
@@ -83,4 +74,8 @@ NeoBundle 'bling/vim-airline'
 
 NeoBundle 'Shougo/neocomplete.vim'
 NeoBundle 'Shougo/vimshell.vim'
+NeoBundle 'Shougo/unite.vim'
 NeoBundle 'chazy/cscope_maps'
+NeoBundle 'xolox/vim-misc'	
+NeoBundle 'xolox/vim-lua-inspect'
+"NeoBundle 'vim-scripts/Conque-GDB'
