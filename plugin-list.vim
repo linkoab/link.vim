@@ -73,9 +73,9 @@ NeoBundle 'bling/vim-airline'
 "let g:airline_powerline_fonts = 1
 
 NeoBundle 'Shougo/neocomplete.vim'
-NeoBundle 'Shougo/vimshell.vim'
+"NeoBundle 'Shougo/vimshell.vim'
 NeoBundle 'Shougo/unite.vim'
 NeoBundle 'chazy/cscope_maps'
 NeoBundle 'xolox/vim-misc'	
-NeoBundle 'xolox/vim-lua-inspect'
+"NeoBundle 'xolox/vim-lua-inspect'
 "NeoBundle 'vim-scripts/Conque-GDB'
