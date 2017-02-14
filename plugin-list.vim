@@ -1,7 +1,7 @@
 " # Bundle List
 " ## vimproc
 "NeoBundle 'Shougo/vimproc'
-
+set t_Co=256
 " ## NERDTree
 NeoBundle 'scrooloose/nerdtree'
 nmap <leader>e	:<C-u>NERDTree<CR>
@@ -80,3 +80,4 @@ NeoBundle 'xolox/vim-misc'
 "NeoBundle 'xolox/vim-lua-inspect'
 "NeoBundle 'vim-scripts/Conque-GDB'
 NeoBundle 'airblade/vim-gitgutter'
+"NeoBundle 'jreybert/vim-mark'	
